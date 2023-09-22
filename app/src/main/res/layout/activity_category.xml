@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    tools:context=".CategoryActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="CATEGORIES"
+        android:textColor="@color/orangish"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/computers"
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Computers"
+                android:textSize="16sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.065"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.08"
+                app:strokeColor="#FFC412"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/history"
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="229dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="History"
+                android:textSize="16sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.865"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.022"
+                app:strokeColor="#FFC412"
+                app:strokeWidth="3dp"
+                android:layout_marginLeft="220dp" />
+
+            <Button
+                android:id="@+id/maths"
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Maths"
+                android:textSize="16sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.065"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.416"
+                app:strokeColor="#FFC412"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/english"
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginStart="229dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="English"
+                android:textSize="16sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.934"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.416"
+                app:strokeColor="#FFC412"
+                app:strokeWidth="3dp"
+                android:layout_marginLeft="229dp" />
+
+            <Button
+                android:id="@+id/sports"
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="340dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Sports"
+                android:textSize="16sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.065"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.766"
+                app:strokeColor="#FFC412"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/aptitude"
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="229dp"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="APTITUDE"
+                android:textSize="16sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.865"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.707"
+                app:strokeColor="#FFC412"
+                app:strokeWidth="3dp"
+                android:layout_marginTop="340dp"/>
+
+            <Button
+                android:id="@+id/currentaffairs"
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="229dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="CURRENT AFFAIRS"
+                android:textSize="16sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.065"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.973"
+                app:strokeColor="#FFC412"
+                app:strokeWidth="3dp"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="229dp"
+                android:layout_marginBottom="50dp"/>
+
+            <Button
+                android:id="@+id/geography"
+                android:layout_width="165dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="GEOGRAPHY"
+                android:textSize="16sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.865"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.973"
+                app:strokeColor="#FFC412"
+                app:strokeWidth="3dp"
+                android:layout_marginTop="510dp"
+                android:layout_marginBottom="50dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

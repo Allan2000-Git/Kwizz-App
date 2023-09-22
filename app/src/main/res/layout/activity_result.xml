@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FAB037"
+    tools:context=".ResultActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/result_bg">
+
+        <TextView
+            android:id="@+id/highScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="High Score : "
+            android:textColor="@color/black"
+            android:textSize="30sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/totalQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/montserratsemibold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Total Questions : "
+            android:textColor="@color/black"
+            android:textSize="22sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/correctAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/montserratsemibold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Correct Answers : "
+            android:textColor="@color/black"
+            android:textSize="22sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/wrongAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/montserratsemibold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Wrong Answers : "
+            android:textColor="@color/black"
+            android:textSize="22sp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/playAgain"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Play Again"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                app:backgroundTint="@color/orangish"
+                app:cornerRadius="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp">
+            </Button>
+
+            <Button
+                android:id="@+id/mainMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Main Menu"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                app:backgroundTint="@color/orangish"
+                app:cornerRadius="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
